@@ -27,9 +27,9 @@ namespace BlogPlatform
                 new Category() { Id = 3, Name = "GPUs" });
 
             modelbuilder.Entity<Content>().HasData(
-                 new Content() { Id = 1, CategoryId = 1, Title = "Zelda is a wonderful game", Body = "Random words", Author = "Bona", PublishDate = DateTime.Today },
-                 new Content() { Id = 2, CategoryId = 2, Title = "Lebron James scored 50 in a loss to the Nets", Body = "Random words Random words", Author = "Bona", PublishDate = DateTime.Today },
-                 new Content() { Id = 3, CategoryId = 3, Title = "3080 is still overpiced.", Body = "Random words Random words Random words", Author = "Bona", PublishDate = DateTime.Today});
+                 new Content() { Id = 1, CategoryId = 1, Title = "Zelda is a wonderful game", Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu lobortis elementum nibh tellus molestie nunc. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.", Author = "Bona", PublishDate = DateTime.Today },
+                 new Content() { Id = 2, CategoryId = 2, Title = "Lebron James scored 50 in a loss to the Nets", Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu lobortis elementum nibh tellus molestie nunc. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.", Author = "Bona", PublishDate = DateTime.Today },
+                 new Content() { Id = 3, CategoryId = 3, Title = "3080 is still overpiced.", Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu lobortis elementum nibh tellus molestie nunc. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.", Author = "Bona", PublishDate = DateTime.Today});
         }
     }
 }
